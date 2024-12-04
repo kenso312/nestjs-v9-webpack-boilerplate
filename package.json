@@ -45,7 +45,7 @@
     "@nestjs/config": "^3.3.0",
     "@nestjs/core": "^10.4.13",
     "@nestjs/platform-fastify": "^10.4.13",
-    "@nestjs/swagger": "^8.0.7",
+    "@nestjs/swagger": "^8.1.0",
     "@swc/jest": "^0.2.37",
     "axios": "^1.7.9",
     "class-transformer": "^0.5.1",
