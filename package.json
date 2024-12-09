@@ -63,7 +63,7 @@
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
     "@commitlint/types": "^19.5.0",
-    "@nestjs/cli": "10.4.8",
+    "@nestjs/cli": "10.4.9",
     "@nestjs/schematics": "^10.2.3",
     "@nestjs/testing": "^10.4.15",
     "@swc-node/register": "^1.10.9",
