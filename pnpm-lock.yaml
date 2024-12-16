@@ -39,8 +39,8 @@ importers:
         specifier: ^7.0.3
         version: 7.0.3
       fastify:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.0
+        version: 5.2.0
       joi:
         specifier: ^17.13.3
         version: 17.13.3
@@ -1709,10 +1709,6 @@ packages:
     resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
     engines: {node: '>= 0.6'}
 
-  cookie@0.7.2:
-    resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
-    engines: {node: '>= 0.6'}
-
   cookie@1.0.2:
     resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
     engines: {node: '>=18'}
@@ -2257,8 +2253,8 @@ packages:
   fastify@4.28.1:
     resolution: {integrity: sha512-kFWUtpNr4i7t5vY2EJPCN2KgMVpuqfU4NjnJNCgiNB900oiDeYqaNDRcAfeBbOF5hGixixxcKnOU4KN9z6QncQ==}
 
-  fastify@5.1.0:
-    resolution: {integrity: sha512-0SdUC5AoiSgMSc2Vxwv3WyKzyGMDJRAW/PgNsK1kZrnkO6MeqUIW9ovVg9F2UGIqtIcclYMyeJa4rK6OZc7Jxg==}
+  fastify@5.2.0:
+    resolution: {integrity: sha512-3s+Qt5S14Eq5dCpnE0FxTp3z4xKChI83ZnMv+k0FwX+VUoZrgCFoLAxpfdi/vT4y6Mk+g7aAMt9pgXDoZmkefQ==}
 
   fastq@1.17.1:
     resolution: {integrity: sha512-sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==}
@@ -3034,9 +3030,6 @@ packages:
   light-my-request@5.13.0:
     resolution: {integrity: sha512-9IjUN9ZyCS9pTG+KqTDEQo68Sui2lHsYBrfMyVUTTZ3XhH8PMZq7xO94Kr+eP9dhi/kcKsx4N41p2IXEBil1pQ==}
 
-  light-my-request@6.1.0:
-    resolution: {integrity: sha512-+NFuhlOGoEwxeQfJ/pobkVFxcnKyDtiX847hLjuB/IzBxIl3q4VJeFI8uRCgb3AlTWL1lgOr+u5+8QdUcr33ng==}
-
   light-my-request@6.3.0:
     resolution: {integrity: sha512-bWTAPJmeWQH5suJNYwG0f5cs0p6ho9e6f1Ppoxv5qMosY+s9Ir2+ZLvvHcgA7VTDop4zl/NCHhOVVqU+kd++Ow==}
 
@@ -3722,6 +3715,9 @@ packages:
 
   secure-json-parse@2.7.0:
     resolution: {integrity: sha512-6aU+Rwsezw7VR8/nyvKTx8QpWH9FrcYiXXlqC4z5d5XQBDRqtbfsRjnwGyqbi3gddNtWHuEk9OANUotL26qKUw==}
+
+  secure-json-parse@3.0.1:
+    resolution: {integrity: sha512-9QR7G96th4QJ2+dJwvZB+JoXyt8PN+DbEjOr6kL2/JU4KH8Eb2sFdU+gt8EDdzWDWoWH0uocDdfCoFzdVSixUA==}
 
   seek-bzip@2.0.0:
     resolution: {integrity: sha512-SMguiTnYrhpLdk3PwfzHeotrcwi8bNV4iemL9tx9poR/yeaMYwB9VzR1w7b57DuWpuqR8n6oZboi0hj3AxZxQg==}
@@ -6162,8 +6158,6 @@ snapshots:
 
   cookie@0.6.0: {}
 
-  cookie@0.7.2: {}
-
   cookie@1.0.2: {}
 
   core-util-is@1.0.3: {}
@@ -6773,7 +6767,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fastify@5.1.0:
+  fastify@5.2.0:
     dependencies:
       '@fastify/ajv-compiler': 4.0.0
       '@fastify/error': 4.0.0
@@ -6782,12 +6776,12 @@ snapshots:
       avvio: 9.0.0
       fast-json-stringify: 6.0.0
       find-my-way: 9.0.1
-      light-my-request: 6.1.0
+      light-my-request: 6.3.0
       pino: 9.5.0
       process-warning: 4.0.0
       proxy-addr: 2.0.7
       rfdc: 1.4.1
-      secure-json-parse: 2.7.0
+      secure-json-parse: 3.0.1
       semver: 7.6.3
       toad-cache: 3.7.0
 
@@ -7768,12 +7762,6 @@ snapshots:
       process-warning: 3.0.0
       set-cookie-parser: 2.6.0
 
-  light-my-request@6.1.0:
-    dependencies:
-      cookie: 0.7.2
-      process-warning: 4.0.0
-      set-cookie-parser: 2.6.0
-
   light-my-request@6.3.0:
     dependencies:
       cookie: 1.0.2
@@ -8440,6 +8428,8 @@ snapshots:
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
   secure-json-parse@2.7.0: {}
+
+  secure-json-parse@3.0.1: {}
 
   seek-bzip@2.0.0:
     dependencies:
