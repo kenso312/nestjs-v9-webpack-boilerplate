@@ -48,8 +48,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0(@nestjs/common@10.4.15(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(pino-http@10.3.0)
       pino:
-        specifier: ^9.5.0
-        version: 9.5.0
+        specifier: ^9.6.0
+        version: 9.6.0
       pino-http:
         specifier: ^10.3.0
         version: 10.3.0
@@ -3492,8 +3492,8 @@ packages:
   pino-std-serializers@7.0.0:
     resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
 
-  pino@9.5.0:
-    resolution: {integrity: sha512-xSEmD4pLnV54t0NOUN16yCl7RIB1c5UUOse5HSyEXtBp+FgFQyPeDutc+Q2ZO7/22vImV7VfEjH/1zV2QuqvYw==}
+  pino@9.6.0:
+    resolution: {integrity: sha512-i85pKRCt4qMjZ1+L7sy2Ag4t1atFcdbEt76+7iRJn1g2BvsnRMGu9p8pivl9fs63M2kF/A0OacFZhTub+m/qMg==}
     hasBin: true
 
   pirates@4.0.6:
@@ -6757,7 +6757,7 @@ snapshots:
       fast-json-stringify: 5.10.0
       find-my-way: 8.1.0
       light-my-request: 5.13.0
-      pino: 9.5.0
+      pino: 9.6.0
       process-warning: 3.0.0
       proxy-addr: 2.0.7
       rfdc: 1.4.1
@@ -6777,7 +6777,7 @@ snapshots:
       fast-json-stringify: 6.0.0
       find-my-way: 9.0.1
       light-my-request: 6.3.0
-      pino: 9.5.0
+      pino: 9.6.0
       process-warning: 4.0.0
       proxy-addr: 2.0.7
       rfdc: 1.4.1
@@ -8200,7 +8200,7 @@ snapshots:
   pino-http@10.3.0:
     dependencies:
       get-caller-file: 2.0.5
-      pino: 9.5.0
+      pino: 9.6.0
       pino-std-serializers: 7.0.0
       process-warning: 4.0.0
 
@@ -8222,7 +8222,7 @@ snapshots:
 
   pino-std-serializers@7.0.0: {}
 
-  pino@9.5.0:
+  pino@9.6.0:
     dependencies:
       atomic-sleep: 1.0.0
       fast-redact: 3.3.0
