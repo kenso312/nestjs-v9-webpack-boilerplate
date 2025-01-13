@@ -55,7 +55,7 @@
     "joi": "^17.13.3",
     "nestjs-pino": "^4.2.0",
     "pino": "^9.6.0",
-    "pino-http": "^10.3.0",
+    "pino-http": "^10.4.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
